@@ -53,6 +53,7 @@ const MyForm = () => {
     validationSchema: validationSchema,
     onSubmit: (values) => {
       alert(JSON.stringify(values, null, 2));
+      formik.resetForm();
     },
   });
 
@@ -193,7 +194,6 @@ const MyForm = () => {
             type="reset"
             variant="outlined"
             onClick={() => {
-              console.log(formik);
               formik.resetForm();
             }}
           >
