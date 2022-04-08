@@ -3,15 +3,11 @@ import {
   Box,
   Button,
   Chip,
-  FormControl,
-  InputLabel,
   MenuItem,
   OutlinedInput,
-  Select,
   TextField,
 } from "@mui/material";
 import { useFormik } from "formik";
-import { useState } from "react";
 import * as yup from "yup";
 
 const names = ["Parter", "VIP", "Block 1", "Block 2", "Block 3"];
