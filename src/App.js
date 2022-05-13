@@ -10,7 +10,7 @@ function App() {
         marginTop: "5rem",
       }}
     >
-      <MyForm />
+      SWAN COSMETICS LANDING PAGE
     </div>
   );
 }
